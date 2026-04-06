@@ -1,16 +1,29 @@
-# React + Vite
+# 🍳 Recipe Quest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Uma jornada culinária para descobrir receitas incríveis com o que você tem à mão.
 
-Currently, two official plugins are available:
+O **Recipe Quest** é uma aplicação Full-stack que permite aos usuários explorar receitas através da API TheMealDB, filtrar por categorias (Vegano, Sobremesas, etc.) e gerenciar seus favoritos com persistência de dados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi construído com a stack moderna de desenvolvimento web:
 
-## Expanding the ESLint configuration
+- **Frontend:** [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Linguagem:** JavaScript (ES6+)
+- **Estilização:** CSS3 (ou Tailwind/Styled Components se for usar)
+- **Backend-as-a-Service:** [Supabase](https://supabase.com/) (Autenticação e PostgreSQL)
+- **Consumo de API:** Axios
+- **Roteamento:** React Router Dom
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Funcionalidades Planejadas
+
+- [ ] **Sistema de Autenticação:** Login e Cadastro via Supabase.
+- [ ] **Busca:** Pesquisa por nome ou ingredientes.
+- [ ] **Filtros Dinâmicos:** Filtre por dieta (Vegano/Vegetariano) ou área (Italiana, Japonesa, etc).
+- [ ] **Favoritos:** Salve suas receitas preferidas no banco de dados.
+- [ ] **Página de Detalhes:** Visualização completa de ingredientes e modo de preparo.
+
