@@ -1,0 +1,109 @@
+.navbar {
+    border-radius: 40px;
+    width: fit-content;
+    margin: 20px auto;
+    max-width: 900px;
+    min-width: 600px;
+    padding: 0 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+    /* --- EFEITO GLASSMORPHISM --- */
+    background: rgba(255, 255, 255, 0.2); /* Branco bem transparente */
+    backdrop-filter: blur(15px); /* Desfoca o que está atrás */
+    -webkit-backdrop-filter: blur(15px); /* Suporte para Safari */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(251, 232, 159, 0.4));
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #8a4b1a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-separator {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(138, 75, 26, 0.3);
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-auth a {
+    text-decoration: none;
+    color: #8a4b1a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-links a:hover, 
+.nav-auth a:hover {
+    opacity: 1;
+    color: #fba72b;
+    
+    text-shadow: 0 0 8px rgba(251, 167, 43, 0.6),
+                 0 0 12px rgba(251, 232, 159, 0.3);
+    
+    transition: all 0.3s ease;
+}
+
+.btn-login {
+    color: #8a4b1a;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    color: #fba72b;
+    text-shadow: 0 0 10px rgba(251, 167, 43, 0.3);
+}
+
+.btn-signup {
+    background: #ff703f;
+    color: white !important;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 15px;
+    box-shadow: 0 4px 15px rgba(251, 167, 43, 0.4);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn-signup:hover {
+    transform: scale(1.08) translateY(-2px);
+    background: #ff703f;
+    box-shadow: 0 6px 20px rgba(251, 167, 43, 0.6);
+}

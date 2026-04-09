@@ -1,0 +1,57 @@
+.home-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    
+    min-height: 100vh;
+    width: 100%;
+}
+
+.search-pill-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    margin: 30px auto;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 5px 5px 5px 25px;
+}
+
+.search-input-custom {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    
+    color: #4d402d;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.search-btn-round {
+    background: #ff703f; /* Laranja da sua pílula de cadastro */
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}

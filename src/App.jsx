@@ -1,10 +1,14 @@
 import { AppRoutes } from "./routes/AppRoutes";
 import "./App.css";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <div className="App">
-      <AppRoutes />
+      <Navbar />
+      <main className="main-content">
+        <AppRoutes />
+      </main>
     </div>
   )
 }
