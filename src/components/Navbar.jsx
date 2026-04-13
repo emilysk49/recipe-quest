@@ -1,4 +1,5 @@
 import "./Navbar.css"
+import {Link} from 'react-router-dom'
 import logoImg from "../assets/logo.png"
 
 const Navbar = () => {
@@ -13,16 +14,16 @@ const Navbar = () => {
             />
             </div>
             <ul className="nav-links">
-                <li><a href="/explore">Explorar</a></li>
-                <li><a href="/favoritos">Favoritos</a></li>
+                <li><Link to="/explore">Explorar</Link></li>
+                <li><Link to="/favorites">Favoritos</Link></li>
             </ul>
         </div>
 
         <span className="nav-separator"></span>
         
         <div className="nav-auth">
-            <a href="/login" className="btn-login">Login</a>
-            <a href="/cadastro" className="btn-signup">Cadastrar</a>
+            <Link to="/login" className="btn-login">Login</Link>
+            <Link to="/register" className="btn-signup">Cadastrar</Link>
         </div>
         
       </nav>

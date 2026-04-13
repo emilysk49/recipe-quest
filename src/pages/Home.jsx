@@ -1,7 +1,17 @@
 import logoImg from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
 import "./Home.css"
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const handleSearch = (e) => {
+    e.preventDefault()
+    // aqui capturara valor do input mais tarde
+    navigate('/explore')
+  }
+
   return (
     <main className="home-container">
       <div className="hero-section">
@@ -11,7 +21,7 @@ const Home = () => {
           className="img-fluid mb-4 hero-logo-custom"
           style={{ maxWidth: "400px" }}
         />
-        <div className="search-pill-container">
+        <form className="search-pill-container" onSubmit={handleSearch}>
           <input
             type="text"
             className="search-input-custom"
@@ -20,7 +30,7 @@ const Home = () => {
           <button type="submit" className="search-btn-round">
             <i className="bi bi-search"></i>
           </button>
-        </div>
+        </form>
       </div>
     </main>
   );
