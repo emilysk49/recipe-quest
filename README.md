@@ -11,17 +11,26 @@ O **Recipe Quest** é uma aplicação Full-stack que permite aos usuários explo
 Este projeto foi construído com a stack moderna de desenvolvimento web:
 
 - **Frontend:** [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)
-- **Linguagem:** JavaScript (ES6+)
-- **Estilização:** CSS3 (ou Tailwind/Styled Components se for usar)
-- **Backend-as-a-Service:** [Supabase](https://supabase.com/) (Autenticação e PostgreSQL)
+- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (Python 3.x)
+- **Banco de Dados:** [PostgreSQL](https://www.postgresql.org/) (via SQLAlchemy ou Tortoise ORM)
 - **Consumo de API:** Axios
 - **Roteamento:** React Router Dom
+
+---
+## 📸 Interface (WIP)
+> ⚠️ *Nota: As capturas de tela abaixo são de uma versão preliminar. Alterações visuais podem ocorrer conforme o progresso do desenvolvimento.*
+
+### Home
+![Tela de Home](./screenshots/home.png)
+
+### Cadastro
+![Tela de Cadastro](./screenshots/register.png)
 
 ---
 
 ## 🛠️ Funcionalidades Planejadas
 
-- [ ] **Sistema de Autenticação:** Login e Cadastro via Supabase.
+- [ ] **Sistema de Autenticação:** Login e Cadastro com JWT (JSON Web Tokens).
 - [ ] **Busca:** Pesquisa por nome ou ingredientes.
 - [ ] **Filtros Dinâmicos:** Filtre por dieta (Vegano/Vegetariano) ou área (Italiana, Japonesa, etc).
 - [ ] **Favoritos:** Salve suas receitas preferidas no banco de dados.
