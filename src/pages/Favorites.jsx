@@ -48,6 +48,30 @@ const Favorites = () => {
       strMealThumb:
         "https://www.themealdb.com/images/media/meals/1525872624.jpg",
     },
+    {
+      idMeal: "52971",
+      strMeal: "Kafteji",
+      strCategory: "Vegetarian",
+      strArea: "Tunisian",
+      strMealThumb:
+        "https://www.themealdb.com/images/media/meals/1525872624.jpg",
+    },
+    {
+      idMeal: "52971",
+      strMeal: "Kafteji",
+      strCategory: "Vegetarian",
+      strArea: "Tunisian",
+      strMealThumb:
+        "https://www.themealdb.com/images/media/meals/1525872624.jpg",
+    },
+    {
+      idMeal: "52971",
+      strMeal: "Kafteji",
+      strCategory: "Vegetarian",
+      strArea: "Tunisian",
+      strMealThumb:
+        "https://www.themealdb.com/images/media/meals/1525872624.jpg",
+    },
   ];
 
   // if (!meal) return <p>Carregando dados da API...</p>;
