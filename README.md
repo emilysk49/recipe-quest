@@ -26,6 +26,12 @@ Este projeto foi construído com a stack moderna de desenvolvimento web:
 ### Cadastro
 ![Tela de Cadastro](./screenshots/register.png)
 
+### Login
+![Tela de Login](./screenshots/login.png)
+
+### Favoritos
+![Tela de Favoritos](./screenshots/favorites.png)
+
 ---
 
 ## 🛠️ Funcionalidades Planejadas

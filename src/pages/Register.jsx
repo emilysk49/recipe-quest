@@ -15,7 +15,7 @@ const Register = () => {
 
   return (
     <div className='register-page'>
-      <div className="register-card-glass">
+      <div className="card-glass register">
         <h2>Criar Conta</h2>
         <p className="register-subtitle">Comece sua jornada no Recipe Quest!</p>
         <form onSubmit={handleSubmit} className="register-form">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="login-page">
-      <div className="login-card-glass">
+      <div className="card-glass login">
         <h2>Bem-vindo de volta!</h2>
         <p className="login-subtitle">Continue sua jornada no Recipe Quest</p>
         <form className="login-form">
