@@ -1,5 +1,6 @@
 import './Favorites.css'
 import { IoHeart } from "react-icons/io5"
+import { Link } from "react-router-dom";
 // import axios from 'axios'
 // import {useState, useEffect} from 'react'
 
@@ -91,11 +92,13 @@ const Favorites = () => {
             </button>
           </div>
           <div className="info favorites">
-            <h3>{recipe.strMeal}</h3>
+            <h3 className='neon-text'>{recipe.strMeal}</h3>
             <p>Categoria: {recipe.strCategory}</p>
             <p>Origem: {recipe.strArea}</p>
           </div>
-          <button className="btn-view">Ver Receita</button>
+          <Link to={`/recipe/${recipe.idMeal}`} className="view-recipe">
+            <button className="btn-view">Ver Receita</button>
+          </Link>
         </div>
       ))}
     </div>

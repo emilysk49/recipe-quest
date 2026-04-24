@@ -32,6 +32,9 @@ Este projeto foi construído com a stack moderna de desenvolvimento web:
 ### Favoritos
 ![Tela de Favoritos](./screenshots/favorites.png)
 
+### Detalhes de Receita
+![Tela de Receita](./screenshots/recipe.png)
+
 ---
 
 ## 🛠️ Funcionalidades Planejadas

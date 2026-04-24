@@ -1,0 +1,57 @@
+.detail-container {
+    background-image: url('../assets/pergamum.png');
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    width: 95%;
+    margin: -50px auto 0;
+    padding: 120px 15% 80px 15%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.neon-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.image-wrapper {
+    flex: 0 0 350px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    mask-image: radial-gradient(circle, black 60%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, black 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.instructions-wrapper {
+    flex: 1;
+    min-width: 0;
+    
+    max-height: 450px;    
+    overflow-y: auto;     
+    padding-right: 15px;  
+    
+    scrollbar-width: thin;
+    scrollbar-color: #8b4513 transparent; 
+}
+
+.instructions-text {
+    white-space: pre-line;
+    text-align: left;
+}

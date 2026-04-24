@@ -1,7 +1,7 @@
 import './Login.css'
 import { Link } from "react-router-dom";
 
-function Login() {
+const Login = () => {
   return (
     <div className="login-page">
       <div className="card-glass login">
